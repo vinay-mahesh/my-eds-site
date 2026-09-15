@@ -1,0 +1,8 @@
+.embed {
+  display: flex;
+  justify-content: center;
+}
+
+.embed .instagram-media {
+  margin: 0 auto !important;
+}
