@@ -1,0 +1,30 @@
+.accordion .accordion-item {
+  border-bottom: 1px solid #dadada;
+}
+
+.accordion .accordion-item-label {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 16px 40px 16px 0;
+  position: relative;
+}
+
+.accordion .accordion-item-label::after {
+  content: '+';
+  position: absolute;
+  right: 8px;
+  top: 16px;
+}
+
+.accordion .accordion-item-label[aria-expanded='true']::after {
+  content: '−';
+}
+
+.accordion .accordion-item-body {
+  display: none;
+  padding: 0 0 16px;
+}
+
+.accordion .accordion-item-label[aria-expanded='true'] + .accordion-item-body {
+  display: block;
+}
