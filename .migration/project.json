@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "my-eds-site": {
+      "previewOrg": "vinay-mahesh",
+      "previewSite": "my-eds-site",
+      "contentHostUrl": "https://content.da.live/vinay-mahesh/my-eds-site/"
+    }
+  }
+}
